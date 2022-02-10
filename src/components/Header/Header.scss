@@ -1,0 +1,38 @@
+.header {
+  background: rgb(20%, 20%, 20%, 0.7);
+  height: 70px;
+}
+.header-inner {
+  max-width: 1024px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+.support {
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 18px;
+  span {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 544px) {
+  .header-inner {
+    margin: 0 auto 10px auto;
+  }
+}
